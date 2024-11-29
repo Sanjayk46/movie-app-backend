@@ -9,7 +9,7 @@ const {
   deleteUser,
   resetPasswordRequest,
   resetPassword
-} =require('../controllers/userController');
+} =require('../controllers/usercontroller');
 const { protect } = require ('../middleware/authMiddleware');
 const validateRequest = require('../middleware/validator');
 const {body, param} = require('express-validator');
