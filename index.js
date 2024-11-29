@@ -18,7 +18,7 @@ connectDB();
 const app = express()
 
 const corsOption={
-    origin:"http://localhost:3000/",
+    origin:"https://mernmovie.netlify.app",
     credentials: true
 }
 //cros connection
